@@ -52,7 +52,7 @@ body {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 2vh;
-    width: 30vw;
+    width: 40vw;
     background: #d88136;
     padding: 10px;
     z-index: 2; //makes sure element remains on top 
@@ -61,7 +61,7 @@ body {
     // actual income inputbox
     #incomeAmount, #incomeDescription {
       position: relative;
-      width:15vw;
+      width:10vw;
       height: 2.5vh;
       padding: 6px;
       margin: 1px 5px;
@@ -72,10 +72,10 @@ body {
     background-color: #c6538c;
     color: white;
     border: none;
-    padding: 8px 15px;
+   padding: 10px 20px;
     margin: 15px;
     width: 10vw;
-    height: 4.2vh;
+    height: 5.2vh;
     cursor: pointer;
   }
 
@@ -90,6 +90,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    width: 50vw;
     margin-bottom: 3vh;
     flex-direction: row;
   }
@@ -98,6 +99,7 @@ body {
     padding: 10px;
     flex: 1;
     margin-right: 10px;
+    width: 10vw;
   }
   
   .form-group button {
